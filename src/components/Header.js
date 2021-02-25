@@ -1,11 +1,50 @@
-// return navbar
-
 import React from "react";
+import { Link } from "react-router-dom";
 
-// const Header {
-//     return (
-//     // this will return each component
-//     //
-//     )
-
-// }
+function Header() {
+  return (
+    <>
+      <nav style={{ alignItems: "right" }}>
+        <nav className="navbar navbar-expand-lg navbar-light">
+          <h1 className="portHeader">Folio | Samantha Peloquin</h1>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav active">
+              <li className="nav-item">
+                <Link className="nav-link" to="/home">
+                  Home
+                </Link>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="">
+                  Projects
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="">
+                  Resume
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </nav>
+    </>
+  );
+}
+export default Header;
