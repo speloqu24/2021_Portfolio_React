@@ -6,7 +6,7 @@ const projectsArray = [
     title: "Alcohol Archives",
     github: "https://github.com/SterlingOrth/Alcohol_Archives",
     deployedLink: "https://sterlingorth.github.io/Alcohol_Archives/",
-    img: "./Assets/",
+    img: "public/Assets/Social-Media-Icons/Projects/AlcoholArchives.png",
   },
 ];
 
@@ -18,6 +18,7 @@ function Portfolio() {
           title={project.title}
           github={project.github}
           deployedLink={project.deployedLink}
+          img={project.img}
         />
       ))}
     </>
