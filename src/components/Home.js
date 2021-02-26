@@ -1,6 +1,5 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import Triangles from "public/Assets/Triangles.jpg";
 
 function Home() {
   return (

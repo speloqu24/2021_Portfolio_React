@@ -9,3 +9,10 @@ body {
   color: black;
   background-color: white;
 }
+
+.jumbotron {
+  background-image: url(./JumboT.jpg);
+  margin: 2vw;
+  background-size: cover;
+  height: 35vw;
+}
