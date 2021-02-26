@@ -2,3 +2,10 @@ body {
   background-image: url(./Triangles.jpg);
   background-size: cover;
 }
+
+.fixed-bottom {
+  padding: 1%;
+  text-align: right;
+  color: black;
+  background-color: white;
+}

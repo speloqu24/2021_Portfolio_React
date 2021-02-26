@@ -14,7 +14,9 @@ const socialLinks = [
 function Footer() {
   return (
     <footer className="fixed-bottom">
-      <p id="footerText">Samantha Peloquin</p>
+      <p id="footerText ml-auto" style={{ color: "black", float: "left" }}>
+        © Samantha Peloquin
+      </p>
       <Link id="socialIcon" to={socialLinks.facebook}>
         <img
           className="icons"
