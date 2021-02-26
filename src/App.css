@@ -13,6 +13,9 @@ body {
 .jumbotron {
   background-image: url(./JumboT.jpg);
   margin: 2vw;
+  background-repeat: no-repeat;
   background-size: cover;
-  height: 35vw;
+  background-position: right;
+  height: 25vw;
+  /* opacity: 90%; */
 }
