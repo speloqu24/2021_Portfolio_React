@@ -19,3 +19,17 @@ body {
   height: 25vw;
   /* opacity: 90%; */
 }
+
+.prow {
+  background-color: white;
+  opacity: 85%;
+  margin: 2%;
+  padding: 2%;
+  height: 30vw;
+}
+
+.projectImg {
+  margin-bottom: 2vw;
+  height: 25vw;
+  width: 35vw;
+}
