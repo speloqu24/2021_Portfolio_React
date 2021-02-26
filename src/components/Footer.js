@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 const socialLinks = [
   {
-    facebook: "https://www.facebook.com/samantharaepeloquin/",
     instagram: "https://www.instagram.com/speloqu24/?hl=en",
     github: "https://github.com/speloqu24",
     twitter: "https://twitter.com/mkehappn?lang=en",
@@ -17,35 +16,28 @@ function Footer() {
       <p id="footerText ml-auto" style={{ color: "black", float: "left" }}>
         © Samantha Peloquin
       </p>
-      <Link id="socialIcon" to={socialLinks.facebook}>
-        <img
-          className="icons"
-          src="./Assets/Social-Media-Icons/facebook.png"
-          alt="facebook"
-        />
-      </Link>
-      <Link id="socialIcon" to={socialLinks.instagram}>
+      <Link id="socialIcon" to={socialLinks.instagram} target="_blank">
         <img
           className="icons"
           src="./Assets/Social-Media-Icons/instagram.png"
           alt="instagram"
         />
       </Link>
-      <Link id="socialIcon" to={socialLinks.github}>
+      <Link id="socialIcon" to={socialLinks.github} target="_blank">
         <img
           className="icons"
           src="./Assets/Social-Media-Icons/Github.png"
           alt="Github"
         />
       </Link>
-      <Link id="socialIcon" to={socialLinks.twitter}>
+      <Link id="socialIcon" to={socialLinks.twitter} target="_blank">
         <img
           className="icons"
           src="./Assets/Social-Media-Icons/twitter.png"
           alt="twitter"
         />
       </Link>
-      <Link id="socialIcon" to={socialLinks.linkedIn}>
+      <Link id="socialIcon" to={socialLinks.linkedIn} target="_blank">
         <img
           className="icons"
           src="./Assets/Social-Media-Icons/linkedin.png"

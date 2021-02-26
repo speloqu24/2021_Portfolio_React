@@ -8,6 +8,12 @@ const projectsArray = [
     deployedLink: "https://sterlingorth.github.io/Alcohol_Archives/",
     img: "public/Assets/Social-Media-Icons/Projects/AlcoholArchives.png",
   },
+  {
+    title: "Alcohol Archives",
+    github: "https://github.com/SterlingOrth/Alcohol_Archives",
+    deployedLink: "https://sterlingorth.github.io/Alcohol_Archives/",
+    img: "public/Assets/Social-Media-Icons/Projects/AlcoholArchives.png",
+  },
 ];
 
 function Portfolio() {
@@ -15,6 +21,7 @@ function Portfolio() {
     <>
       {projectsArray.map((project) => (
         <Project
+          key={project.title}
           title={project.title}
           github={project.github}
           deployedLink={project.deployedLink}
