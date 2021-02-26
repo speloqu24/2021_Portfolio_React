@@ -10,14 +10,18 @@ const projectsArray = [
   },
 ];
 
-function Projects() {
+function Portfolio() {
   return (
     <>
       {projectsArray.map((project) => (
-        <Project title={project.title} github={project.github} />
+        <Project
+          title={project.title}
+          github={project.github}
+          deployedLink={project.deployedLink}
+        />
       ))}
     </>
   );
 }
 
-export default Projects;
+export default Portfolio;

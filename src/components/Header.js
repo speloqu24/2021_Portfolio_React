@@ -4,9 +4,12 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <>
-      <nav style={{ alignItems: "right" }}>
-        <nav className="navbar navbar-expand-lg navbar-light">
-          <h1 className="portHeader">Folio | Samantha Peloquin</h1>
+      <nav>
+        <nav
+          className="navbar navbar-expand-lg navbar-light"
+          style={{ alignItems: "right" }}
+        >
+          <h1 className="portHeader mr-auto">Folio | Samantha Peloquin</h1>
           <button
             className="navbar-toggler"
             type="button"
@@ -19,26 +22,26 @@ function Header() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav active">
+            <ul className="navbar-nav active ml-auto">
               <li className="nav-item">
-                <Link className="nav-link" to="/home">
+                <Link className="nav-link" to="/">
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="">
+                <Link className="nav-link" to="/projects">
                   Projects
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="">
+                <Link className="nav-link" to="/resume">
                   Resume
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="">
+                <Link className="nav-link" to="/contact">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
