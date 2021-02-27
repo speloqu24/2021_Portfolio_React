@@ -12,7 +12,7 @@ const projectsArray = [
   },
   {
     title: "Provider Portal",
-    github: "https://github.com/speloqu24/Provider_Portal",
+    github: "https://github.com/speloqu24/Provider-Portal",
     deployedLink: "https://calm-forest-80939.herokuapp.com/",
     img: "./Assets/Social-Media-Icons/Provider Portal.png",
     description:
@@ -25,6 +25,14 @@ const projectsArray = [
     img: "./Assets/Social-Media-Icons/Employee_Direct_Img.png",
     description:
       "Using an API call a to random-user, this application displays a table of 100 employees. These employees can be searched and displayed alphabetically by clicking on the Name header.",
+  },
+  {
+    title: "Budget Tracker",
+    github: "https://github.com/speloqu24/Budget_Tracker",
+    deployedLink: "https://shrouded-citadel-91338.herokuapp.com/",
+    img: "./Assets/Social-Media-Icons/BudgetTrackerUI.png",
+    description:
+      "This application allows users to track their income and expenses. Using the budget tracker both online and offline has proven to be useful to those who are trying to track what they spend.",
   },
 ];
 

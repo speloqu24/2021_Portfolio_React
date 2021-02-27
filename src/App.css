@@ -1,10 +1,14 @@
 body {
   background-image: url(./Triangles.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgb(243, 243, 3);
+  background-position: center center;
 }
 
 .fixed-bottom {
-  padding: 1%;
+  padding: 1vw;
   text-align: right;
   color: black;
   background-color: white;
@@ -25,11 +29,45 @@ body {
   opacity: 85%;
   margin: 2%;
   padding: 2%;
-  height: 30vw;
+  /* height: 30vw; */
 }
 
 .projectImg {
   margin-bottom: 2vw;
   height: 25vw;
   width: 35vw;
+  display: inline-block;
+}
+
+.proDets {
+  /* position: absolute;
+  right: 0; */
+  width: 25%;
+  display: inline-block;
+}
+
+.gitIcon {
+  width: 5vw;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 767px) {
+  .proDets,
+  .projectImg {
+    width: 80vw;
+    height: 60vw;
+    margin: 2vw;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 15px;
+    align-items: left;
+  }
+  #gitIcon {
+    width: 5vw;
+  }
 }

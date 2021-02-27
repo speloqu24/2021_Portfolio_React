@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const socialLinks = [
   {
@@ -16,34 +15,34 @@ function Footer() {
       <p id="footerText ml-auto" style={{ color: "black", float: "left" }}>
         © Samantha Peloquin
       </p>
-      <Link id="socialIcon" to={socialLinks.instagram} target="_blank">
+      <a id="socialIcon" href={socialLinks.instagram} target="_blank">
         <img
           className="icons"
           src="./Assets/Social-Media-Icons/instagram.png"
           alt="instagram"
         />
-      </Link>
-      <Link id="socialIcon" to={socialLinks.github} target="_blank">
+      </a>
+      <a id="socialIcon" href={socialLinks.github} target="_blank">
         <img
           className="icons"
           src="./Assets/Social-Media-Icons/Github.png"
           alt="Github"
         />
-      </Link>
-      <Link id="socialIcon" to={socialLinks.twitter} target="_blank">
+      </a>
+      <a id="socialIcon" to={socialLinks.twitter} target="_blank">
         <img
           className="icons"
           src="./Assets/Social-Media-Icons/twitter.png"
           alt="twitter"
         />
-      </Link>
-      <Link id="socialIcon" to={socialLinks.linkedIn} target="_blank">
+      </a>
+      <a id="socialIcon" to={socialLinks.linkedIn} target="_blank">
         <img
           className="icons"
           src="./Assets/Social-Media-Icons/linkedin.png"
           alt="linkedIn"
         />
-      </Link>
+      </a>
     </footer>
   );
 }
