@@ -7,6 +7,25 @@ body {
   background-position: center center;
 }
 
+.portHeader {
+  font-family: "Staatliches";
+  margin-right: 1%;
+  margin-top: 0.5%;
+}
+
+nav {
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.rounded-circle {
+  width: 20vw;
+  height: 20vw;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .fixed-bottom {
   padding: 1vw;
   text-align: right;
@@ -20,16 +39,28 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
-  height: 25vw;
   /* opacity: 90%; */
+}
+
+.jumbotron p {
+  margin-top: 1vw;
+  font-size: 11px;
+  font-weight: bold;
 }
 
 .prow {
   background-color: white;
   opacity: 85%;
-  margin: 2%;
-  padding: 2%;
+  margin: 2vw;
+  padding: 2vw;
   /* height: 30vw; */
+}
+
+.skills {
+  background-color: white;
+  /* opacity: 85%; */
+  margin: 2vw;
+  padding: 2vw;
 }
 
 .projectImg {
@@ -46,8 +77,28 @@ body {
   display: inline-block;
 }
 
+.icons {
+  width: 3vw;
+  margin-right: 2vw;
+  float: right;
+}
+
 .gitIcon {
   width: 5vw;
+}
+
+.skillsimage {
+  height: 70px;
+  width: auto;
+  border-radius: 50%;
+  margin-left: 6.5vw;
+  margin-top: -25vw;
+}
+
+.mern {
+  height: 90px;
+  margin-left: 8vw;
+  margin-top: -25vw;
 }
 
 /* RESPONSIVE */
@@ -60,6 +111,11 @@ body {
     margin: 2vw;
   }
 
+  .jumbotron p {
+    font-size: 10px;
+    text-align: center;
+  }
+
   h1 {
     font-size: 25px;
   }
@@ -69,5 +125,17 @@ body {
   }
   #gitIcon {
     width: 5vw;
+  }
+
+  .skillsimage {
+    width: 5vw;
+    height: 5vw;
+    margin-top: 1.5vw;
+  }
+
+  .mern {
+    width: 20vw;
+    height: 8vw;
+    margin-top: 1.5vw;
   }
 }
