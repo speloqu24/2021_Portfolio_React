@@ -37,15 +37,7 @@ function Home() {
           src="Assets/Social-Media-Icons/npm-logo.png"
           alt="npm"
         />
-        {/* <p className="lead"></p> */}
-        {/* <hr className="my-4" /> */}
       </div>
-      {/* <div className="skills">
-        <hr />
-        <h3>Technologies</h3>
-        <hr />
-        <
-      </div> */}
     </>
   );
 }

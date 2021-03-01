@@ -5,10 +5,7 @@ function Header() {
   return (
     <>
       <nav>
-        <nav
-          className="navbar navbar-expand-lg navbar-light"
-          style={{ alignItems: "right" }}
-        >
+        <nav className="navbar navbar-expand-lg navbar-light">
           <h1 className="portHeader mr-auto">Folio | Samantha Peloquin</h1>
           <button
             className="navbar-toggler"
@@ -29,18 +26,13 @@ function Header() {
                 </Link>
               </li>
               <li className="nav-item">
+                <Link className="nav-link" to="/about">
+                  About
+                </Link>
+              </li>
+              <li className="nav-item">
                 <Link className="nav-link" to="/projects">
                   Projects
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/resume">
-                  Resume
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/contact">
-                  Contact
                 </Link>
               </li>
             </ul>

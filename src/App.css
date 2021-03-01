@@ -18,6 +18,7 @@ nav {
   background-color: white;
 }
 
+/* Home */
 .rounded-circle {
   width: 20vw;
   height: 20vw;
@@ -48,6 +49,21 @@ nav {
   font-weight: bold;
 }
 
+.skillsimage {
+  height: 70px;
+  width: auto;
+  border-radius: 50%;
+  margin-left: 6.5vw;
+  margin-top: -25vw;
+}
+
+.mern {
+  height: 90px;
+  margin-left: 8vw;
+  margin-top: -25vw;
+}
+
+/* Project */
 .prow {
   background-color: white;
   opacity: 85%;
@@ -83,26 +99,35 @@ nav {
   float: right;
 }
 
-.gitIcon {
-  width: 5vw;
+#gitIcon {
+  width: 4vw;
+  height: 4vw;
+  margin-left: 2vw;
 }
 
-.skillsimage {
-  height: 70px;
-  width: auto;
-  border-radius: 50%;
-  margin-left: 6.5vw;
-  margin-top: -25vw;
+/* About */
+.persImg {
+  margin: 2vw;
+  height: 25vw;
+  width: 35vw;
+  /* display: inline-block; */
 }
 
-.mern {
-  height: 90px;
-  margin-left: 8vw;
-  margin-top: -25vw;
+.btn {
+  margin: 2vw;
+  width: 35vw;
+  background-color: black;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: yellow;
+  color: black;
+  border: black;
+  font-weight: bold;
 }
 
 /* RESPONSIVE */
-
 @media only screen and (max-width: 767px) {
   .proDets,
   .projectImg {
@@ -117,14 +142,15 @@ nav {
   }
 
   h1 {
-    font-size: 25px;
+    font-size: 20px;
+    margin-right: 2vw;
   }
   h3 {
     font-size: 15px;
     align-items: left;
   }
   #gitIcon {
-    width: 5vw;
+    width: 4vw;
   }
 
   .skillsimage {
@@ -137,5 +163,12 @@ nav {
     width: 20vw;
     height: 8vw;
     margin-top: 1.5vw;
+  }
+
+  .btn {
+    font-size: 10px;
+  }
+
+  .abtp {
   }
 }
