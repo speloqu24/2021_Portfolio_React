@@ -3,14 +3,6 @@ import Project from "./Project";
 
 const projectsArray = [
   {
-    title: "Alcohol Archives",
-    github: "https://github.com/SterlingOrth/Alcohol_Archives",
-    deployedLink: "https://sterlingorth.github.io/Alcohol_Archives/",
-    img: "./Assets/Social-Media-Icons/AlcoholArchives.png",
-    description:
-      "Here is a website which generates a selected movie, description and rating based on a genre. This application will also generate a beverage to match. An application created to assist the indecisive, alcohol-loving (or not) moviegoer.",
-  },
-  {
     title: "Provider Portal",
     github: "https://github.com/speloqu24/Provider-Portal",
     deployedLink: "https://calm-forest-80939.herokuapp.com/",
@@ -33,6 +25,14 @@ const projectsArray = [
     img: "./Assets/Social-Media-Icons/BudgetTrackerUI.png",
     description:
       "This application allows users to track their income and expenses. Using the budget tracker both online and offline has proven to be useful to those who are trying to track what they spend.",
+  },
+  {
+    title: "Alcohol Archives",
+    github: "https://github.com/SterlingOrth/Alcohol_Archives",
+    deployedLink: "https://sterlingorth.github.io/Alcohol_Archives/",
+    img: "./Assets/Social-Media-Icons/AlcoholArchives.png",
+    description:
+      "Here is a website which generates a selected movie, description and rating based on a genre. This application will also generate a beverage to match. An application created to assist the indecisive, alcohol-loving (or not) moviegoer.",
   },
 ];
 

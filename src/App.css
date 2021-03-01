@@ -69,7 +69,6 @@ nav {
   opacity: 5;
   margin: 2vw;
   padding: 2vw;
-  /* height: 30vw; */
 }
 
 .skills {
@@ -87,8 +86,6 @@ nav {
 }
 
 .proDets {
-  /* position: absolute;
-  right: 0; */
   width: 25%;
   display: inline-block;
 }
@@ -103,6 +100,10 @@ nav {
   width: 4vw;
   height: 4vw;
   margin-left: 2vw;
+}
+
+.deployedLink {
+  margin: 2vw;
 }
 
 /* About */
