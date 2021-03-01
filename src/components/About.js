@@ -53,12 +53,17 @@ function About() {
               Download Full Resume
             </a>
           </div>
-
           <img
             src="./Assets/Social-Media-Icons/Personal/Travel.jpg"
             className="persImg"
             alt="newzealand"
           />
+          <button
+            className="btn btn-secondary"
+            href="https://calendly.com/speloqu24"
+          >
+            Let's Talk
+          </button>
         </div>
       </div>
     </>
