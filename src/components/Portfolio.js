@@ -13,7 +13,7 @@ const projectsArray = [
   {
     title: "Employee Directory",
     github: "https://github.com/speloqu24/employee_directory",
-    deployedLink: "https://zen-volhard-4c8149.netlify.app/",
+    deployedLink: "https://employee-directory-srp.netlify.app/",
     img: "./Assets/Social-Media-Icons/Employee_Direct_Img.png",
     description:
       "Using an API call a to random-user, this application displays a table of 100 employees. These employees can be searched and displayed alphabetically by clicking on the Name header.",
