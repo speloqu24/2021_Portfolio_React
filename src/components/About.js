@@ -59,6 +59,8 @@ function About() {
             className="persImg"
             alt="newzealand"
           />
+    <h3> Samantha Peloquin
+             speloqu24@gmail.com </h3>
           <button
             className="btn btn-secondary"
             href="https://calendly.com/speloqu24"
