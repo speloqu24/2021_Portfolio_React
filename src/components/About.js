@@ -38,7 +38,6 @@ function About() {
             className="persImg textwrap"
             alt="onthebeach"
           />
-          <div className="download textwrap">
             <a
               className="btn btn-secondary"
               href="./Assets/Social-Media-Icons/Personal/Samantha_Peloquin.pdf"
@@ -47,7 +46,6 @@ function About() {
               <i className="fa fa-download"></i>
               Download Full Resume
             </a>
-          </div>
           <img
             src="./Assets/Social-Media-Icons/Personal/Travel.jpg"
             className="persImg textwrap"
