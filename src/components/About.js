@@ -55,6 +55,7 @@ function About() {
             className="persImg"
             alt="newzealand"
           />
+    <button className="btn btn-secondary" href="https://calendly.com/speloqu24"> Let's Talk </button>
         </div>
       </div>
     </>
