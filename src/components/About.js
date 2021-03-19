@@ -5,7 +5,7 @@ function About() {
     <>
       <div className="prow row">
         <div className="col abt">
-          <p className="abtp">
+          <p className="abtp textwrap">
             Thanks for coming by, my name is Samantha and I want to talk to you
             for a moment about why I think the creation of diverse applications
             are important.
