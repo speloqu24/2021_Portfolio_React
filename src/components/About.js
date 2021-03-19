@@ -47,6 +47,7 @@ function About() {
               <i className="fa fa-download"></i>
               Download Full Resume
             </a>
+    </div>
           <img
             src="./Assets/Social-Media-Icons/Personal/Travel.jpg"
             className="persImg textwrap"
