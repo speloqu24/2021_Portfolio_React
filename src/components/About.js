@@ -33,12 +33,13 @@ function About() {
             will result in an easy to use and highly efficient application
             without reinventing the chopping tool to do it.
           </p>
-    <div class="col">
+  <div class="col">
           <img
             src="./Assets/Social-Media-Icons/Personal/Beach.jpg"
-            className="persImg textwrap"
+            className="persImg"
             alt="onthebeach"
           />
+          <div class="download">
             <a
               className="btn btn-secondary"
               href="./Assets/Social-Media-Icons/Personal/Samantha_Peloquin.pdf"
@@ -47,19 +48,13 @@ function About() {
               <i className="fa fa-download"></i>
               Download Full Resume
             </a>
-    </div>
+          </div>
+
           <img
             src="./Assets/Social-Media-Icons/Personal/Travel.jpg"
-            className="persImg textwrap"
+            className="persImg"
             alt="newzealand"
           />
-          <button
-            className="btn btn-secondary"
-            href="https://calendly.com/speloqu24"
-          >
-            Let's Talk
-          </button>
-    </div>
         </div>
       </div>
     </>
