@@ -33,6 +33,7 @@ function About() {
             will result in an easy to use and highly efficient application
             without reinventing the chopping tool to do it.
           </p>
+    <div class="col">
           <img
             src="./Assets/Social-Media-Icons/Personal/Beach.jpg"
             className="persImg textwrap"
@@ -57,6 +58,7 @@ function About() {
           >
             Let's Talk
           </button>
+    </div>
         </div>
       </div>
     </>
