@@ -5,6 +5,11 @@ function About() {
     <>
       <div className="prow row">
         <div className="col abt">
+          <img
+            src="./Assets/Social-Media-Icons/Personal/Beach.jpg"
+            className="persImg"
+            alt="onthebeach"
+          />
           <p className="abtp">
             Thanks for coming by, my name is Samantha and I want to talk to you
             for a moment about why I think the creation of diverse applications
@@ -36,31 +41,14 @@ function About() {
             approach that will result in an easy to use and highly efficient
             application without reinventing the tools to do it.
           </p>
-        </div>
-        <div class="col">
-          <img
-            src="./Assets/Social-Media-Icons/Personal/Beach.jpg"
-            className="persImg"
-            alt="onthebeach"
-          />
-          <div class="download">
-            <a
-              className="btn btn-secondary"
-              href="./Assets/Social-Media-Icons/Personal/Samantha_Peloquin.pdf"
-              download="Samantha_Peloquin"
-            >
-              <i className="fa fa-download"></i>
-              Download Full Resume
-            </a>
-          </div>
-
-          <img
-            src="./Assets/Social-Media-Icons/Personal/Travel.jpg"
-            className="persImg"
-            alt="newzealand"
-          />
-    <h3> Samantha Peloquin
-             speloqu24@gmail.com </h3>
+          <a
+            className="btn btn-secondary"
+            href="./Assets/Social-Media-Icons/Personal/Samantha_Peloquin.pdf"
+            download="Samantha_Peloquin"
+          >
+            <i className="fa fa-download"></i>
+            Download Full Resume
+          </a>
           <button
             className="btn btn-secondary"
             href="https://calendly.com/speloqu24"

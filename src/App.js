@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/projects" component={Portfolio} />
+        <Route exact path="/contact" component={Contact} />
+
         <Footer />
       </div>
     </Router>
