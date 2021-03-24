@@ -30,9 +30,11 @@ function Project(props) {
               href={props.deployedLink}
               target="_blank"
             >
-              Deployed Link
+              Check it out!
             </a>
           </p>
+          <h5>Technologies Used:</h5>
+          <p>{props.tech}</p>
         </div>
       </div>
     </>
