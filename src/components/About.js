@@ -43,7 +43,7 @@ function About() {
           </p>
           <a
             className="btn btn-secondary"
-            href="./Assets/Social-Media-Icons/Personal/Samantha_Peloquin.pdf"
+            href=
             download="Samantha_Peloquin"
           >
             <i className="fa fa-download"></i>
