@@ -1,8 +1,5 @@
 import React from "react";
 
-const resume = "./Assets/Social-Media-Icons/Personal/Samantha_Peloquin.pdf";
-
-
 function About() {
   return (
     <>
@@ -44,21 +41,6 @@ function About() {
             approach that will result in an easy to use and highly efficient
             application without reinventing the tools to do it.
           </p>
-          <a
-            className="btn btn-secondary"
-            href={resume}
-            target="_blank"
-            download="Samantha_Peloquin"
-          >
-            <i className="fa fa-download"></i>
-            Download Full Resume
-          </a>
-          <button
-            className="btn btn-secondary"
-            href="https://calendly.com/speloqu24"
-          >
-            Let's Talk
-          </button>
         </div>
       </div>
     </>
