@@ -41,6 +41,7 @@ function About() {
             approach that will result in an easy to use and highly efficient
             application without reinventing the tools to do it.
           </p>
+    <a href='./Assets/Social-Media-Icons/Personal/Samantha_Peloquin.pdf' download> Download Resume </a>
         </div>
       </div>
     </>
