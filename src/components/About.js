@@ -41,7 +41,9 @@ function About() {
             approach that will result in an easy to use and highly efficient
             application without reinventing the tools to do it.
           </p>
+    <button className="btn">
     <a href='./Assets/Social-Media-Icons/Personal/Samantha_ Peloquin.pdf' download> Download Resume </a>
+    </button>
         </div>
       </div>
     </>
