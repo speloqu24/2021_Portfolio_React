@@ -44,6 +44,9 @@ function About() {
     <button className="btn">
     <a href='./Assets/Social-Media-Icons/Personal/Samantha_ Peloquin.pdf' download> Download Resume </a>
     </button>
+    <button className = "btn>
+    <a href= "https://calendly.com/speloqu24/15min" target= "_blank"> Let's Talk</a>
+    </button>
         </div>
       </div>
     </>
