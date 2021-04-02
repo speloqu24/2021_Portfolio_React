@@ -1,5 +1,8 @@
 import React from "react";
 
+const resume = "./Assets/Social-Media-Icons/Personal/Samantha_Peloquin.pdf";
+
+
 function About() {
   return (
     <>
@@ -43,7 +46,8 @@ function About() {
           </p>
           <a
             className="btn btn-secondary"
-            href="./Assets/Social-Media-Icons/Personal/Samantha_Peloquin.pdf"
+            href={resume}
+            target="_blank"
             download="Samantha_Peloquin"
           >
             <i className="fa fa-download"></i>
