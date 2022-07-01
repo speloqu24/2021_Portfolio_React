@@ -42,7 +42,7 @@ function About() {
             application without reinventing the tools to do it.
           </p>
     <button className="btn">
-    <a href='./Assets/Social-Media-Icons/Personal/Samantha_ Peloquin.pdf' download> Download Resume </a>
+    <a href='./Assets/Social-Media-Icons/Personal/SPeloquin_22-2.pdf' download> Download Resume </a>
     </button>
         </div>
       </div>
